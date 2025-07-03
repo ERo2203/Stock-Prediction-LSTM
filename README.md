@@ -51,6 +51,7 @@ stock-anomaly-detector/
 ├── model/
 
 │ └── lstm_utils.py # LSTM model training and anomaly detection
+
 ├── utils/
 
 │ ├── fetch.py # Stock data downloader and volume anomaly detection
