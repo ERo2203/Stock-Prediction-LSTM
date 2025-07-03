@@ -43,15 +43,24 @@ This script will:
 
 stock-anomaly-detector/
 ├── main.py # Main entry point for running detection
+
 ├── requirements.txt # Required Python packages
+
 ├── README.md # This file
+
 ├── model/
+
 │ └── lstm_utils.py # LSTM model training and anomaly detection
 ├── utils/
+
 │ ├── fetch.py # Stock data downloader and volume anomaly detection
+
 │ ├── preprocessing.py # Scaling and windowing for LSTM
+
 │ └── visualization.py # Plotting helper functions (optional)
+
 ├── data/
+
 │ └── *.csv # Output anomaly detection files
 
 
